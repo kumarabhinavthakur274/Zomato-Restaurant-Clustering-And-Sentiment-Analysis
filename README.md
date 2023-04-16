@@ -16,6 +16,16 @@ The Zomato-Restaurants dataset comprises of 2 files. "Zomato restaurant reviews"
 The project uses the following methodology:
 
 * Data preprocessing: The data is cleaned, processed, and transformed to prepare it for clustering and sentiment analysis.
-* Clustering: The K-Means algorithm is used to cluster the restaurants based on location, rating, and cuisine.
-* Sentiment analysis: We have used natural language processing technique(NLP) to identify the sentiment of the customer based on their reviews.
+* Clustering:The preprocessed data is clustered using the K-Means clustering and agglomerative clustering algorithem. This involves identifying groups of restaurants that have similar attributes, such as cuisine, location, and price range.
+* Sentiment analysis:The customer reviews for each restaurant are analyzed using sentiment analysis to determine the overall sentiment of the reviews. This involves using Natural Language Processing (NLP) techniques to extract and analyze the sentiment of the text.
 * Visualization: The results of the clustering and sentiment analysis are visualized using various charts and graphs.
+
+## Results
+The results of this project include:
+
+* A clustered map of restaurants in Hydrabad, based on their attributes
+* A sentiment analysis of customer reviews for each restaurant
+
+## Conclusion
+
+It can be concluded that by using K Means Clustering and Agglomerative Hierarchial Clustering we have come up with 4 clusters of Restaurants based on the features provided in the dataset. For Sentiment Analysis we considered Logistic Regression as the model to predict the sentiments of the reviewers based on their reviews and ratings.
